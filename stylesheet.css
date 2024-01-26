@@ -1,0 +1,66 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.header {
+  font-size: 2em;
+  margin: 0;
+}
+
+.intro {
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  background-color: pink;
+  padding: 10px;
+}
+
+.bed {
+  font-size: 1.2em;
+  color: #ff66b2;
+  margin: 5px 0;
+  background-color: wheat;
+}
+
+.description {
+  font-size: 1em;
+  color: #ff99cc;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  text-align: center;
+}
+
+.bed-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+      width: 100%;
+  }
+}
